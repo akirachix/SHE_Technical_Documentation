@@ -1,0 +1,10 @@
+:root [data-md-color-primary="custom"] {
+  --md-primary-fg-color:        #EC008C; 
+  --md-primary-fg-color--light:  #ff5cb1;
+  --md-primary-fg-color--dark:   #b30065; 
+}
+
+:root [data-md-color-accent="custom"] {
+  --md-accent-fg-color:         #EC008C; 
+  --md-accent-fg-color--transparent: rgba(236, 0, 140, 0.1);
+}

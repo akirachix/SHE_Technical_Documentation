@@ -1,0 +1,24 @@
+site_name: DadaSafe Technical Documentation
+
+theme:
+  name: material
+  logo: assets/brand/logo.png
+  palette:
+    primary: custom
+    accent: custom
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Brand guideline: brand.md
+  - Backend: backend.md
+  - AI: ai.md
+  - Frontend Web: frontend.md
+  - Frontend Mobile: mobile.md
+  - QA Process: qa.md
+  - Security: security.md
+  - Deployment: deployment.md
+  - Glossary: glossary.md
