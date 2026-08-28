@@ -1,3 +1,14 @@
+/* ==========================================================================
+   DadaSafe Theme Configuration - Global Styles & Sidebar
+   ========================================================================== */
+@import url('https://googleapis.com');
+
+/* Force the entire documentation platform to use the geometric font universally */
+:root, body, html, .md-typeset, .md-nav, .md-header, .md-search__input {
+    font-family: 'Google Sans Flex', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif !important;
+}
+
+/* Base Team Brand Color Tokens */
 :root [data-md-color-primary="custom"] {
   --md-primary-fg-color:        #EC008C; 
   --md-primary-fg-color--light:  #ff5cb1;
@@ -7,4 +18,34 @@
 :root [data-md-color-accent="custom"] {
   --md-accent-fg-color:         #EC008C; 
   --md-accent-fg-color--transparent: rgba(236, 0, 140, 0.1);
+}
+
+/* Sidebar Custom Shell Container Wrapper */
+.md-sidebar--navigation .md-sidebar__scrollwrap {
+    background-color: #FDE6F4 ;
+    border-radius: 0 40px 40px 0 ; 
+    padding: 20px 15px ;
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Main Navigation Action Link Modifiers */
+.md-nav__link {
+    color: #EC008C ;
+    font-weight: 800 !important; /* Emphasizes the clean text look */
+    font-size: 1.05rem !important;
+    transition: all 0.3s ease;
+    border-radius: 20px; 
+    padding: 8px 12px ;
+}
+
+/* Selected Menu Link Highlights */
+.md-nav__item--active > .md-nav__link {
+    color: #ffffff !important;
+    background-color: #662D91 ; 
+}
+
+/* Hover Interaction Feedback Adjustments */
+.md-nav__link:hover {
+    background-color: rgba(102, 45, 145, 0.1) ;
+    color: #662D91 ;
 }

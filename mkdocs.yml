@@ -1,15 +1,16 @@
 site_name: DadaSafe Technical Documentation
-
 theme:
   name: material
   logo: assets/brand/logo.png
   palette:
     primary: custom
     accent: custom
-
+  
+  
 extra_css:
   - stylesheets/extra.css
-
+  - stylesheets/backend-custom.css
+  - stylesheets/frontend.css
 nav:
   - Home: index.md
   - Architecture: architecture.md
