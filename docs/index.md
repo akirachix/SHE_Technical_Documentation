@@ -68,6 +68,13 @@ The platform has three personas, each with an isolated frontend interface and ro
 
 
 
+## Group members
+
+- Dorcas Wanjiru
+- Susan Wanjiru
+- Stacey Nduta
+- Sumaya Abdi
+- Ntirenganya Cynthia
 # SHE++ Platform Technical Documentation
 
 ## 1. Introduction
