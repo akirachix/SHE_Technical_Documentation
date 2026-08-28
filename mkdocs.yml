@@ -12,7 +12,10 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/custom-index-ai-architecture.css
   - stylesheets/backend-custom.css
+  - stylesheets/brand.css
+
 
 
 nav:
@@ -27,3 +30,10 @@ nav:
   - Security: security.md
   - Deployment: deployment.md
   - Glossary: glossary.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition  
+  - pymdownx.details 
+  - pymdownx.superfences 

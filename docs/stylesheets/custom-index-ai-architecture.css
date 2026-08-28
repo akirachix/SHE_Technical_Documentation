@@ -1,0 +1,90 @@
+@import url('https://cdnfonts.com');
+@import url('https://googleapis.com');
+
+.md-content,
+.md-content p, 
+.md-content ul, 
+.md-content li,
+.md-content a,
+.md-content h1,
+.md-content h2,
+.md-content h3 {
+    font-family: 'Google Sans Flex', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+}
+
+.md-content__inner {
+    background: transparent !important;
+}
+
+.md-content h1 {
+    color: #EC008C !important; 
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(102, 45, 145, 0.15); 
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.md-content h2 {
+    color: #662D91 !important; 
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(102, 45, 145, 0.15); 
+    font-size: 1.35rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.md-content pre,
+.md-typeset pre {
+    background-color: #111111 !important; 
+    padding: 1.25rem !important;
+    border-radius: 6px !important;
+    border: 1px solid #333333 !important;
+    overflow-x: auto;
+    margin: 1.25rem 0 !important;
+}
+
+.md-content code,
+.md-content pre code,
+.md-content pre span,
+.md-typeset pre code,
+.md-typeset pre span {
+    color: #ffffff !important; 
+    font-family: 'Roboto Mono', var(--md-code-font-family), monospace !important;
+    font-size: 0.9rem !important;
+    text-shadow: none !important;
+    background: transparent !important;
+}
+
+.md-content p code,
+.md-typeset code {
+    background-color: #FDE6F4 !important; 
+    color: #662D91 !important;           
+    border: 1px solid rgba(102, 45, 145, 0.2) !important; 
+    padding: 0.25rem 0.5rem !important;
+    border-radius: 6px !important;
+    font-family: 'Roboto Mono', var(--md-code-font-family), monospace !important;
+    font-size: 0.85em !important;
+    font-weight: 600 !important;
+    word-break: break-word !important;
+    box-shadow: none !important;
+}
+
+@media screen and (min-width: 60em) {
+    .md-sidebar--primary {
+        width: 12rem !important;
+    }
+    .md-content {
+        max-width: 100% !important;
+    }
+}
+
+.md-nav__link {
+    font-size: 0.8rem !important;
+    padding: 0.4rem 0.5rem !important;
+}
