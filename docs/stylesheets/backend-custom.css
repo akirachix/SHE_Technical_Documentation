@@ -22,28 +22,27 @@
     border-radius: 8px;
     padding: 1.5rem;
     margin-bottom: 2rem;
-    box-shadow: 0 10px 30px rgba(102, 45, 145, 0.06); 
-    transition: transform 0.25s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: none; 
+    transition: border-color 0.2s ease;
 }
 
 .backend-card:hover {
-    transform: translateY(-6px) scale(1.015); 
-    box-shadow: 0 20px 40px rgba(102, 45, 145, 0.16); 
+    transform: none; 
+    box-shadow: none; 
     cursor: pointer;
+    border-color: rgba(102, 45, 145, 0.35); 
 }
 
 .backend-card:active {
-    transform: translateY(-2px) scale(0.995); 
-    box-shadow: 0 8px 16px rgba(102, 45, 145, 0.12); 
-    transition: transform 0.08s ease, box-shadow 0.08s ease;
+    transform: none; 
+    box-shadow: none; 
 }
-
 
 .backend-card h2,
 h2 {
-    color: #662D91 ;
-    margin-top: 0 ;
-    margin-bottom: 1rem ;
+    color: #662D91;
+    margin-top: 0;
+    margin-bottom: 1rem;
     padding-bottom: 0.75rem;
     border-bottom: 1px solid rgba(102, 45, 145, 0.15);
     font-size: 1.35rem;
