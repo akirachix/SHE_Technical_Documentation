@@ -434,3 +434,19 @@ pre.code-block.folder-tree {
     padding: 18px;
   }
 }
+
+
+.vercel-link {
+  display: inline-block;
+  margin-top: 6px;
+  color: var(--pink-dark);
+  font-weight: 700;
+  text-decoration: none;
+  word-break: break-word;
+  transition: color 0.2s ease;
+}
+
+.vercel-link:hover {
+  color: var(--header-purple);
+  text-decoration: underline;
+}
