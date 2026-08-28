@@ -6,12 +6,14 @@ theme:
   palette:
     primary: custom
     accent: custom
+
   
   
 
 extra_css:
   - stylesheets/extra.css
   - stylesheets/backend-custom.css
+
 
 nav:
   - Home: index.md
