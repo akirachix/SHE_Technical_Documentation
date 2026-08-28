@@ -16,13 +16,22 @@
 }
 
 
+.md-sidebar--secondary {
+    display: none !important;
+}
+
+@media screen and (min-width: 60em) {
+    .md-content {
+        max-width: 100% !important;
+    }
+}
+
 .md-sidebar--navigation .md-sidebar__scrollwrap {
     background-color: #FDE6F4 ;
     border-radius: 0 40px 40px 0 ; 
     padding: 20px 15px ;
     box-shadow: 4px 0 15px rgba(0, 0, 0, 0.05);
 }
-
 
 .md-nav__link {
     color: #EC008C ;
@@ -32,7 +41,6 @@
     border-radius: 20px; 
     padding: 8px 12px ;
 }
-
 
 .md-nav__item--active > .md-nav__link {
     color: #ffffff !important;
