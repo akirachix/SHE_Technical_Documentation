@@ -1,5 +1,4 @@
 site_name: DadaSafe Technical Documentation
-
 theme:
   name: material
   logo: assets/brand/logo.png
@@ -7,14 +6,14 @@ theme:
     primary: custom
     accent: custom
 
-  
-  
-
 extra_css:
   - stylesheets/extra.css
   - stylesheets/custom-index-ai-architecture.css
   - stylesheets/backend-custom.css
+  - stylesheets/frontend.css
+
   - stylesheets/brand.css
+
 
 
 
