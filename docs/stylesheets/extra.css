@@ -1,20 +1,17 @@
-
 @import url('https://googleapis.com');
-
 
 :root, body, html, .md-typeset, .md-nav, .md-header, .md-search__input {
     font-family: 'Google Sans Flex', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif !important;
 }
 
-
 :root [data-md-color-primary="custom"] {
-  --md-primary-fg-color:        #EC008C; 
-  --md-primary-fg-color--light:  #ff5cb1;
-  --md-primary-fg-color--dark:   #b30065; 
+  --md-primary-fg-color:         #662D91; 
+  --md-primary-fg-color--light:  #FDE6F4; 
+  --md-primary-fg-color--dark:   #4A1E6D; 
 }
 
 :root [data-md-color-accent="custom"] {
-  --md-accent-fg-color:         #EC008C; 
+  --md-accent-fg-color:          #EC008C; 
   --md-accent-fg-color--transparent: rgba(236, 0, 140, 0.1);
 }
 
@@ -29,8 +26,8 @@
 
 .md-nav__link {
     color: #EC008C ;
-    font-weight: 800 ; 
-    font-size: 1.05rem ;
+    font-weight: 800 !important; 
+    font-size: 1.05rem !important;
     transition: all 0.3s ease;
     border-radius: 20px; 
     padding: 8px 12px ;
@@ -38,10 +35,9 @@
 
 
 .md-nav__item--active > .md-nav__link {
-    color: #ffffff ;
+    color: #ffffff !important;
     background-color: #662D91 ; 
 }
-
 
 .md-nav__link:hover {
     background-color: rgba(102, 45, 145, 0.1) ;
@@ -49,12 +45,10 @@
 }
 
 
-
 .md-header {
     padding: 0.75rem 0 ; 
     height: 4.5rem ;  
 }
-
 
 .md-header__inner {
     height: 100% ;
@@ -62,14 +56,12 @@
     align-items: center ;
 }
 
-
 .md-header__button.md-logo img, 
 .md-logo img {
     height: 3.2rem ;   
     width: auto ;     
     max-height: none ;  
 }
-
 
 .md-header__topic {
     font-size: 1.25rem ; 
@@ -79,21 +71,6 @@
     margin-left: 0.5rem ;
 }
 
-
 .md-search {
     padding: 0.35rem 0 ;
 }
-
-
-
-:root [data-md-color-primary="custom"] {
-  --md-primary-fg-color:         #662D91; 
-  --md-primary-fg-color--light:  #FDE6F4; 
-  --md-primary-fg-color--dark:   #4A1E6D; 
-}
-
-:root [data-md-color-accent="custom"] {
-  --md-accent-fg-color:          #EC008C; 
-  --md-accent-fg-color--transparent: rgba(236, 0, 140, 0.1);
-}
-
