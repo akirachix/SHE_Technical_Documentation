@@ -68,6 +68,7 @@ The platform has three personas, each with an isolated frontend interface and ro
 
 
 
+
 # SHE++ Platform Technical Documentation
 
 ## 1. Introduction
