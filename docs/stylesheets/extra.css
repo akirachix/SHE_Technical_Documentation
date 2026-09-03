@@ -82,3 +82,7 @@
 .md-search {
     padding: 0.35rem 0 ;
 }
+.md-nav--primary > .md-nav__title, 
+.md-sidebar--navigation .md-nav__title {
+    display: none !important;
+}
